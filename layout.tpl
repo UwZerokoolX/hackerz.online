@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/public/css/bs_theme.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="hackerzonline,hackerz online,hacking game,hacking simulation,hackerz.online,mmorpg,vhack,vhack alternative,android game">
 </head>
 <body>
 
@@ -40,11 +41,12 @@
     <div class="container">
         {{ template "footer" .}}
         <a href="/tos/">Terms of service and privacy policy</a>
+        </div>
         <a href="/tac/">Terms and Conditions</a>
     </div>
 </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 {{ template "post_js" }}
 </body>
